@@ -1,0 +1,21 @@
+.bg-dark {
+  background: transparent !important;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: transparent !important;
+}
+
+.nav-item {
+  margin-left: 2rem;
+  a {
+    color: white !important;
+  }
+}

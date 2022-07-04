@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { HerculesComponent } from './hercules.component';
+
+describe('HerculesComponent', () => {
+  let component: HerculesComponent;
+  let fixture: ComponentFixture<HerculesComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ HerculesComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(HerculesComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

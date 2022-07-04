@@ -1,0 +1,100 @@
+.rw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .col-3 {
+    text-align: center;
+  }
+}
+
+.tt {
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.ff {
+  font-size: 12px;
+  p {
+    font-size: 10px;
+    // text-align: justify;
+  }
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background-color: transparent;
+}
+input {
+  border: 0px solid #ef8e7e;
+  border-bottom: 1px solid #ef8e7e;
+  padding: 0.5rem 0rem;
+}
+textarea {
+  border: 1px solid #ef8e7e;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+
+.am{
+  width: 100%;
+}
+.wid{
+  width: 5rem;
+}
+.am select {
+  border: 1px solid #ef8e7e;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  color: #ef8e7e;
+  width: 100%;
+}
+
+.am div{
+  color: #494949;
+font-size: 12px;
+}
+
+input,
+textarea::-webkit-input-placeholder {
+  color: #494949;
+}
+
+input,
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #494949;
+}
+
+input,
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #494949;
+}
+
+input,
+textarea:-ms-input-placeholder {
+  color: #494949;
+}
+
+input,
+textarea::placeholder {
+  color: #494949;
+}
+
+.col-7 {
+  font-size: 10px;
+}
+
+.form-con {
+  border: 1px solid #ef8e7e;
+  padding: 2rem;
+  margin: 5rem 10rem;
+}
+
+.fSpace {
+  height: 1.5em;
+}

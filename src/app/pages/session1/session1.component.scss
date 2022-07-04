@@ -1,0 +1,101 @@
+// @import "~swiper/swiper-bundle";
+
+.bg {
+  background-image: url("../../../assets/bg1.svg");
+  // background-image: url(bg1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 50px auto;
+}
+
+.swiper-slide {
+  background: #f1f1f1;
+  color: #000;
+  text-align: center;
+  line-height: 300px;
+}
+
+.transition {
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.grad {
+  position: absolute;
+  height: 30vh;
+  width: 100%;
+  bottom: 0rem;
+  z-index: 100;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.774),
+    rgba(0, 0, 0, 0.979),
+    rgb(0, 0, 0)
+  );
+  background-size: cover;
+}
+
+.next {
+  position: absolute;
+  width: 2rem;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  background: #ebebeb2e;
+  right: 0%;
+  bottom: 20%;
+  top: 20%;
+  color: white;
+}
+
+.prev {
+  position: absolute;
+  width: 2rem;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background: #ebebeb2e;
+  left: 0%;
+  bottom: 20%;
+  top: 20%;
+  color: white;
+}
+.next:hover,
+.prev:hover {
+  background: rgb(235 235 235 / 23%);
+}
+
+// .proto {
+//   position: absolute;
+//   bottom: -30rem;
+// }
+
+@media only screen and (max-width: 699px) {
+  .bg {
+    background-image: url("../../../assets/bg1.svg");
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 75%;
+  }
+
+  .grad {
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    bottom: 0rem;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      #00000059,
+      #000000e8,
+      #000000
+    );
+    background-size: cover;
+  }
+}

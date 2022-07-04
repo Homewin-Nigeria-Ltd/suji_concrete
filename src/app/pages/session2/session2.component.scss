@@ -1,0 +1,62 @@
+.container_s {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0rem 0rem 10rem 0rem;
+}
+.container_s #video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: fit;
+}
+.container_s .controls {
+  position: absolute;
+  height: 5rem;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-around;
+  transition: opacity 0.4s;
+}
+.container_s .controls button:hover {
+  opacity: 100000;
+  background: #ffffffd3;
+}
+.container_s .controls button {
+  background: #ffffff96;
+  mix-blend-mode: soft-light;
+  opacity: 0.2;
+  // background: transparent;
+  // color: #fff;
+  font-weight: bolder;
+  width: 5rem;
+  border-radius: 50%;
+  text-shadow: 2px 1px 2px #000;
+  border: none;
+  cursor: pointer;
+}
+// .container_s .controls .timeline {
+//   flex: 1;
+//   display: flex;
+//   align-items: center;
+//   border: none;
+//   border-right: 3px solid #ccc;
+//   border-left: 3px solid #ccc;
+// }
+// .container_s .controls .timeline .bar {
+//   background: rgb(1, 1, 65);
+//   height: 4px;
+//   flex: 1;
+// }
+// .container_s .controls .timeline .bar .inner {
+//   background: #ccc;
+//   width: 0%;
+//   height: 100%;
+// }
+.fa {
+  // font-size: 50px !important;
+  // color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,14 @@
+.rw {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rw2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    opacity: 0.5;
+  }
+}

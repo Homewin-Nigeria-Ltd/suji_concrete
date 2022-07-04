@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+p {
+  color: #ef8e7e;
+}
+
+.rw {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ef8e7e !important;
+  i-feather {
+    color: #ef8e7e !important;
+    cursor: pointer;
+  }
+}
+
+.f-nav:hover {
+  cursor: pointer;
+}

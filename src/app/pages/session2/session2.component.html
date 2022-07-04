@@ -1,0 +1,21 @@
+<div class="container_s">
+  <video (click)="play()" src="https://res.cloudinary.com/codelife/video/upload/v1637805738/intro_l5ul1k.mp4" autoplay
+ loop="true" id="video" #video></video>
+  <div class="controls">
+    <button *ngIf="!isPlay" (click)="play()">
+      <i-feather class="fa fa-play" name="play"></i-feather>
+    </button>
+    <button *ngIf="isPlay" (click)="pause()">
+      <i-feather class="fa fa-pause" name="pause"></i-feather>
+    </button>
+    <!-- <button onclick="rewind(event)"><i class="fa fa-fast-backward"></i></button> -->
+    <!-- <div class="timeline">
+          <div class="bar">
+              <div class="inner"></div>
+          </div>
+      </div> -->
+    <!-- <button onclick="forward(event)"><i class="fa fa-fast-forward"></i></button>
+      <button onclick="fullScreen(event)"><i class="fa fa-expand"></i></button>
+      <button onclick="download(event)"><i class="fa fa-cloud-download"></i></button> -->
+  </div>
+</div>

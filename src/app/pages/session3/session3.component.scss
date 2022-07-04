@@ -1,0 +1,25 @@
+
+.vl {
+  border-right: 2px solid #ef8e7e;
+  height: auto;
+}
+
+.hr2 {
+  margin: 4rem;
+}
+
+.rw {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+
+.bg{
+  background-image: url("../../../assets/bg3.svg");
+  // background-image: url(bg1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 7em 5em #000;
+}

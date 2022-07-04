@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100vh;
+  width: 100%;
+  background: black !important;
+  color: white;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f7b0a5;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ef8e7e;
+}
+
+.btn {
+  border: 1px solid #ef8e7e;
+  padding: 0.5rem 1.5rem;
+  color: #ef8e7e;
+}
+
+.space {
+  height: 2rem;
+}
+
+.hr {
+  color: #ef8e7e;
+  opacity: 100000;
+}

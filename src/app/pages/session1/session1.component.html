@@ -1,0 +1,22 @@
+<div class="m-container bg">
+  <app-top-bar></app-top-bar>
+  <swiper [allowTouchMove]="false" [scrollbar]=" { draggable: true }" [pagination]="{ clickable: true }" #swiperRef
+    [navigation]="true">
+    <ng-template data-swiper-autoplay="6000" swiperSlide>
+      <app-hercules></app-hercules>
+    </ng-template>
+<!--
+    <ng-template data-swiper-autoplay="10000" class="swiper-slide" swiperSlide>
+      Slide 2
+    </ng-template>
+
+    <ng-template data-swiper-autoplay="60000" swiperSlide>
+      Slide 3
+    </ng-template> -->
+  </swiper>
+
+  <!-- <img class="proto" src="assets/proto.svg" alt=""> -->
+  <div class="grad"></div>
+  <button (click)="slideNext()" class="d-none d-lg-block next" ><i-feather name="chevron-right"></i-feather></button>
+  <button (click)="slidePrev()" class="d-none d-lg-block prev" ><i-feather name="chevron-left"></i-feather></button>
+</div>
