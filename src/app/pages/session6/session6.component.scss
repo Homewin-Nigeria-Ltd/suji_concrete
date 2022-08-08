@@ -1,8 +1,28 @@
 .rw {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  p {
+    text-align: left;
+  }
+  .col-3 {
+    text-align: center;
+  }
+}
 
+.sujim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rww {
+  display: flex;
+  justify-content: space-between;
+  p {
+    text-align: left;
+  }
   .col-3 {
     text-align: center;
   }
@@ -38,11 +58,10 @@ textarea {
   border-radius: 5px;
 }
 
-
-.am{
+.am {
   width: 100%;
 }
-.wid{
+.wid {
   width: 5rem;
 }
 .am select {
@@ -53,9 +72,9 @@ textarea {
   width: 100%;
 }
 
-.am div{
+.am div {
   color: #494949;
-font-size: 12px;
+  font-size: 12px;
 }
 
 input,

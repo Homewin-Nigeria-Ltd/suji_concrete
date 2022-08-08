@@ -173,7 +173,7 @@
   transform: scale(1);
 }
 .item-hints .hint[data-position="1"] .hint-content {
-  top: 85px;
+  top: 75px;
   left: 50%;
   margin-left: 56px;
 }
@@ -192,8 +192,11 @@
   visibility: hidden;
   pointer-events: none;
 }
-h3 {
+h4 {
   color: #ef8e7e;
+}
+p{
+  font-size: 14px;
 }
 .item-hints .hint:hover .hint-content {
   color: #fff;
